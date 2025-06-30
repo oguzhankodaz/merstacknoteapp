@@ -1,5 +1,4 @@
-# merstacknoteapp
-full-stack MERN Note App
+
 
 # MERN Notes App
 
