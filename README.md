@@ -1,67 +1,74 @@
-# merstacknoteapp
-full-stack MERN Note App
+# 📝 MERN Notes App
 
-# MERN Notes App
-
-This is a full-stack MERN (MongoDB, Express.js, React, Node.js) application that allows users to create, view, and manage their personal notes.
+This is a full-stack **MERN** (MongoDB, Express.js, React, Node.js) application that allows users to create, view, and manage their personal notes.
 
 ---
 
 ## 📁 Project Structure
-/MERN
-├── client # React frontend
-└── server # Express backend + MongoDB
 
+```
+/MERN
+├── client   # React frontend
+└── server   # Express backend + MongoDB
+```
+
+---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### Clone the Repository
 
-
+```bash
 git clone https://github.com/oguzhankodaz/merstacknoteapp.git
-cd mern-notes-app
+cd merstacknoteapp
+```
 
-### 2. Install Dependencies
+### Install Dependencies
 
-# Client
+```bash
+# Install client dependencies
 cd client
 npm install
 
-# Server
+# Install server dependencies
 cd ../server
 npm install
+```
 
-### 3. Setup Environment Variables
+### Setup Environment Variables
 
-Create a .env file inside the server/ folder:
+Create a `.env` file inside the `server/` folder and add:
 
-MONGO_URI= your_mongodb_connection_string
+```
+MONGO_URI=your_mongodb_connection_string
 PORT=5001
+```
 
-### 4. Run the application
-Start the server
+### Run the Application
+
+```bash
+# Start the server
 cd server
 npm run dev
+```
 
-Start the client (in a new terminal)
+Open a new terminal:
 
+```bash
+# Start the client
 cd client
 npm run dev
+```
 
+---
 
-### 🛠 Tech Stack
-React (Vite)
+## 🛠 Tech Stack
 
-Express.js
-
-MongoDB (Mongoose)
-
-Node.js
-
-Tailwind CSS
-
-ShadCN UI
-
-Axios
-
-React Router
+- React (Vite)
+- Express.js
+- MongoDB (Mongoose)
+- Node.js
+- Tailwind CSS
+- ShadCN UI
+- Axios
+- React Router
