@@ -1,0 +1,29 @@
+# Ortak (client ve server için geçerli)
+node_modules/
+.env
+.env.* 
+*.log
+.DS_Store
+dist/
+build/
+.vscode/
+.idea/
+*.local
+*.cache
+*.swp
+
+# Client klasörü için
+client/node_modules/
+client/.env
+client/.next/
+client/.turbo/
+client/.vercel/
+
+# Server klasörü için
+server/node_modules/
+server/.env
+
+# Test, coverage vs
+coverage/
+*.test.js
+*.spec.js
